@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit About Us - VAB&S ENGINEERING COMPANY LIMITED</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Edit About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="admin-dashboard.html">Dashboard</a></li>
+                <li><a href="manage-projects.html">Manage Projects</a></li>
+                <li><a href="edit-services.html">Edit Services</a></li>
+                <li><a href="admin.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="edit-about">
+            <h2>Edit About Us Content</h2>
+            <form action="update-about.php" method="POST">
+                <textarea name="about_content" rows="10" cols="50" required></textarea>
+                <button type="submit">Update</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VAB&S ENGINEERING COMPANY LIMITED</p>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>
